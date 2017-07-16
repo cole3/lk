@@ -3,7 +3,7 @@ LOCAL_DIR := $(GET_LOCAL_DIR)
 MODULE := $(LOCAL_DIR)
 
 # ROMBASE, MEMBASE, and MEMSIZE are required for the linker script
-ROMBASE := 0x0
+ROMBASE := 0x08000000
 MEMBASE := 0x20000000
 # can be overridden by target
 
